@@ -1,0 +1,21 @@
+sensor_id,mechanism_id,sensor_type,serial_number
+1,1,Temperature,SN-T-101
+2,1,Vibration,SN-V-102
+3,1,Noise,SN-N-103
+4,1,Wear Particles,SN-P-104
+5,2,Temperature,SN-T-201
+6,2,Vibration,SN-V-202
+7,2,Noise,SN-N-203
+8,2,Wear Particles,SN-P-204
+9,3,Temperature,SN-T-301
+10,3,Vibration,SN-V-302
+11,3,Noise,SN-N-303
+12,3,Wear Particles,SN-P-304
+13,4,Temperature,SN-T-401
+14,4,Vibration,SN-V-402
+15,4,Noise,SN-N-403
+16,4,Wear Particles,SN-P-404
+17,5,Temperature,SN-T-501
+18,5,Vibration,SN-V-502
+19,5,Noise,SN-N-503
+20,5,Wear Particles,SN-P-504
