@@ -5,7 +5,7 @@ CREATE INDEX idx_sensor_mechanism ON Sensor(mechanism_id);
 
 
 
--- функция: Считает количество активных задач у инженера
+-- функция: считает количество активных задач у инженера
 CREATE OR REPLACE FUNCTION get_engineer_load(eng_id INT) 
 RETURNS INT AS $$
 BEGIN
@@ -13,7 +13,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- процедура: Закрывает все алерты для конкретного механизма (например, после ремонта)
+-- процедура: закрывает все алерты для конкретного механизма 
 CREATE OR REPLACE PROCEDURE close_all_mechanism_alerts(mech_id INT)
 AS $$
 BEGIN
